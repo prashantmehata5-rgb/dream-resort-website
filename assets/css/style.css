@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f8f5f0;
+}
+
+.header {
+    background: #0b2b4c;
+    color: white;
+    padding: 15px;
+}
+
+.header a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 60px;
+    text-align: center;
+    background: #c9a24d;
+    color: #000;
+}
+
+.preview {
+    padding: 40px;
+    text-align: center;
+}
+
+.wedding-section {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.wedding-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.wedding-card.premium {
+    border: 2px solid #c9a24d;
+}
+
+.contact-cta {
+    padding: 30px;
+    text-align: center;
+    background: #f3f3f3;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.footer {
+    background: #0b2b4c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.page-title {
+    padding: 40px;
+    text-align: center;
+    background: #eee;
+}
+
+.rooms-section {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.room-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.room-card h3 {
+    margin-top: 0;
+}
+
+.price {
+    font-size: 20px;
+    color: #0b2b4c;
+    font-weight: bold;
+}
+
+.room-card ul {
+    padding-left: 20px;
+}
+
+.room-card .btn {
+    display: inline-block;
+    margin-top: 15px;
+    background: #c9a24d;
+    padding: 10px 15px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.room-card.premium {
+    border: 2px solid #c9a24d;
+}
+
+.note {
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.travel-section {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.travel-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.travel-card.premium {
+    border: 2px solid #c9a24d;
+}
