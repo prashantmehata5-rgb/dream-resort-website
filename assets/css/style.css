@@ -141,4 +141,54 @@ body {
 
 .travel-card.premium {
     border: 2px solid #c9a24d;
+
+}section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.subtitle {
+  max-width: 800px;
+  margin: 10px auto 40px;
+  color: #555;
+}
+
+.features, .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.feature-box, .card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+.rooms-preview,
+.wedding-preview {
+  background: #f8f8f8;
+}
+
+.announcement {
+  background: linear-gradient(135deg, #0a1d37, #102c57);
+  color: #fff;
+}
+
+.contact-cta {
+  background: #0a1d37;
+  color: #fff;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 30px;
+  background: #0a1d37;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
 }
