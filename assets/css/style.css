@@ -287,6 +287,20 @@ section p {
   border-radius: 12px;
   margin-bottom: 15px;
 }
+.about-section {
+  background: #ffffff;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.about-section p {
+  max-width: 900px;
+  margin: 15px auto;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #333;
+}
+
 
 
 
