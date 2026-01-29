@@ -282,6 +282,12 @@ section h3 {
 section p {
   color: #333;
 }
+.room-card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
 
 
 
