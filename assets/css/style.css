@@ -17,9 +17,9 @@ body {
 }
 
 .hero {
-    padding: 60px;
+    padding: 80px 20px;
     text-align: center;
-    background: #c9a24d;
+    background: linear-gradient(135deg, #c9a24d, #e3c77b);
     color: #000;
 }
 
@@ -50,12 +50,6 @@ body {
     padding: 30px;
     text-align: center;
     background: #f3f3f3;
-}
-
-.cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 15px;
 }
 
 .card {
@@ -192,3 +186,4 @@ body {
   text-decoration: none;
   border-radius: 25px;
 }
+
