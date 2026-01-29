@@ -218,25 +218,7 @@ body {
   border-radius: 12px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.12);
 }
-.pool-section {
-  background: #f8f8f8;
-}
 
-.pool-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 20px;
-  max-width: 1100px;
-  margin: auto;
-}
-
-.pool-card img {
-  width: 100%;
-  height: 240px;
-  object-fit: cover;
-  border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
-}
 
 
 
