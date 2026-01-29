@@ -17,10 +17,16 @@ body {
 }
 
 .hero {
-    padding: 80px 20px;
+    padding: 100px 20px;
     text-align: center;
-    background: linear-gradient(135deg, #c9a24d, #e3c77b);
-    color: #000;
+    color: #fff;
+
+    background: 
+      linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+      url("../images/hero.jpg");
+
+    background-size: cover;
+    background-position: center;
 }
 
 .preview {
@@ -186,4 +192,5 @@ body {
   text-decoration: none;
   border-radius: 25px;
 }
+
 
