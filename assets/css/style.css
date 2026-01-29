@@ -273,6 +273,16 @@ section p {
   font-weight: bold;
   margin: 10px;
 }
+/* ===== TEXT VISIBILITY FIX ===== */
+section h2,
+section h3 {
+  color: #0b2b4c;
+}
+
+section p {
+  color: #333;
+}
+
 
 
 
