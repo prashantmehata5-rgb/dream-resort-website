@@ -248,6 +248,32 @@ section h3,
 section p {
   color: #0b2b4c;
 }
+/* ===== LUXURY HERO FIX ===== */
+.hero {
+  padding: 160px 20px;
+  text-align: center;
+  color: #fff;
+  background-image:
+    linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+    url("../../images/hero.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero h1,
+.hero h2,
+.hero p {
+  color: #ffffff;
+  text-shadow: 0 4px 12px rgba(0,0,0,0.6);
+}
+
+.hero .btn {
+  background: #c9a24d;
+  color: #000;
+  font-weight: bold;
+  margin: 10px;
+}
+
 
 
 
