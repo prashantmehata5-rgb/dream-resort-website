@@ -242,6 +242,13 @@ body {
 .lawn-grid img:hover {
   transform: scale(1.05);
 }
+/* TEXT VISIBILITY FIX */
+section h2,
+section h3,
+section p {
+  color: #0b2b4c;
+}
+
 
 
 
