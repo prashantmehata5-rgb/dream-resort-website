@@ -379,9 +379,9 @@ section p {
   margin: 0;
 }
 .luxury-pool {
-  height: 500px;
+  height: 520px;
   background:
-    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
     url("../../images/pool/pool1.jpg");
   background-size: cover;
   background-position: center;
@@ -406,6 +406,12 @@ section p {
   line-height: 1.6;
   margin-bottom: 20px;
 }
+/* Pool Text Shadow Fix */
+.luxury-pool h2,
+.luxury-pool p {
+  text-shadow: 0 4px 12px rgba(0,0,0,0.8);
+}
+
 
 
 
