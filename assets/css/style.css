@@ -411,6 +411,11 @@ section p {
 .luxury-pool p {
   text-shadow: 0 4px 12px rgba(0,0,0,0.8);
 }
+.luxury-pool .subtitle {
+  color: #ffffff;
+  text-shadow: 0 4px 12px rgba(0,0,0,0.8);
+}
+
 
 
 
