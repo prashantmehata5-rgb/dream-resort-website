@@ -78,10 +78,10 @@ body {
 }
 
 .rooms-section {
-    padding: 40px;
+    padding: 60px 20px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: 30px;
 }
 
 .room-card {
@@ -336,6 +336,7 @@ section p {
   40% { opacity: 0; }
   100% { opacity: 0; }
 }
+
 
 
 
