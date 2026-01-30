@@ -486,6 +486,20 @@ background:
   position: relative;
   z-index: 3;
 }
+.wedding-video {
+  padding: 80px 20px;
+  text-align: center;
+  background: #ffffff;
+}
+
+.wedding-vid {
+  width: 100%;
+  max-width: 1000px;
+  border-radius: 15px;
+  margin: 30px auto;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
 
 
 
