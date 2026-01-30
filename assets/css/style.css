@@ -429,6 +429,39 @@ section p {
 background:
   linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
   url("../../images/pool/pool1.jpg");
+.announcement {
+  background: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.announcement h2 {
+  color: #0b2b4c;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.announcement p {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.6;
+}
+.contact-cta {
+  background: #0b2b4c;
+  color: #fff;
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.contact-cta h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.contact-cta p {
+  color: #fff;
+}
+
 
 
 
