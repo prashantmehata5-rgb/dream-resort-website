@@ -415,6 +415,21 @@ section p {
   color: #ffffff;
   text-shadow: 0 4px 12px rgba(0,0,0,0.8);
 }
+.luxury-pool h2 {
+  color: #ffffff;
+  text-shadow: 0 3px 10px rgba(0,0,0,0.7);
+}
+
+.luxury-pool p,
+.luxury-pool .subtitle {
+  color: #ffffff !important;
+  font-weight: 500;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}
+background:
+  linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+  url("../../images/pool/pool1.jpg");
+
 
 
 
