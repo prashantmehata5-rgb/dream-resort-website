@@ -461,6 +461,32 @@ background:
 .contact-cta p {
   color: #fff;
 }
+/* ===== FIX: Pool Section Overlay Control ===== */
+
+.luxury-pool {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.announcement {
+  background: #ffffff;
+  color: #0b2b4c;
+  padding: 80px 20px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.contact-cta {
+  background: #0a1d37;
+  color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+  position: relative;
+  z-index: 3;
+}
+
 
 
 
