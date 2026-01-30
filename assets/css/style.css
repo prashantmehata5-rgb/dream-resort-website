@@ -356,6 +356,29 @@ section p {
   max-width: 1200px;
   margin: 60px auto;
 }
+.header {
+  background: #0b2b4c;
+  padding: 15px 30px;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  height: 55px;
+  width: auto;
+  display: block;
+}
+
+.header h1 {
+  color: #fff;
+  font-size: 22px;
+  margin: 0;
+}
+
 
 
 
