@@ -196,25 +196,31 @@
    💬
 </a>
 <!-- BOOKING POPUP -->
-<form action="https://formsubmit.co/10abb0ec326a0e9ea540c10c76fba3d9" method="POST">
+<div id="bookingPopup" class="popup-overlay">
+  <div class="popup-box">
+    <span class="close-btn" onclick="closePopup()">×</span>
 
-  <!-- Hidden Settings -->
-  <input type="hidden" name="_subject" value="New Booking Enquiry - Dream Resort">
-  <input type="hidden" name="_captcha" value="false">
-  <input type="hidden" name="_template" value="table">
-  <input type="hidden" name="_next" value="https://wa.me/919301988004">
+    <h2>Book Your Stay / Event</h2>
 
-  <!-- User Fields -->
-  <input type="text" name="name" placeholder="Your Name" required>
-  <input type="tel" name="phone" placeholder="Mobile Number" required>
-  <input type="date" name="event_date" required>
-  <textarea name="message" placeholder="Event Type / Rooms Required"></textarea>
+    <form action="https://formsubmit.co/10abb0ec326a0e9ea540c10c76fba3d9" method="POST">
 
-  <button type="submit" class="btn">Submit Enquiry</button>
+      <!-- Hidden Settings -->
+      <input type="hidden" name="_subject" value="New Booking Enquiry - Dream Resort">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_next" value="https://wa.me/919301988004">
 
-</form>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="tel" name="phone" placeholder="Mobile Number" required>
+      <input type="date" name="event_date" required>
+      <textarea name="message" placeholder="Event Type / Rooms Required"></textarea>
 
+      <button type="submit" class="btn">Submit Enquiry</button>
+
+    </form>
+  </div>
 </div>
+
 <script>
 function openPopup() {
   document.getElementById("bookingPopup").style.display = "flex";
@@ -227,6 +233,7 @@ function closePopup() {
 
 </body>
 </html>
+
 
 
 
