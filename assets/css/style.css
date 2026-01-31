@@ -515,6 +515,35 @@ background:
   height: 100%;
   border-radius: 15px;
 }
+/* Banquet & Restaurant Section */
+.banquet-section {
+  padding: 70px 20px;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+.banquet-section .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 40px auto 0;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.gallery-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 45px rgba(0,0,0,0.25);
+}
+
 
 
 
