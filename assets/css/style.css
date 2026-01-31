@@ -543,6 +543,15 @@ background:
   transform: scale(1.05);
   box-shadow: 0 20px 45px rgba(0,0,0,0.25);
 }
+/* Lawn Gallery */
+.lawn-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
 
 
 
