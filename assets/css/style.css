@@ -635,6 +635,27 @@ background:
   font-size: 22px;
   cursor: pointer;
 }
+.booknow-wrapper {
+  text-align: center;
+  margin: 60px 0;
+}
+
+.book-btn {
+  padding: 18px 45px;
+  font-size: 18px;
+  border-radius: 40px;
+}
+.book-btn {
+  background: #0b2b4c;
+  color: #fff;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+  transition: 0.3s ease;
+}
+
+.book-btn:hover {
+  transform: scale(1.08);
+}
+
 
 
 
