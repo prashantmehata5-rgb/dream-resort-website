@@ -702,7 +702,14 @@ background:
 
 .wedding-slider .prev { left: 10px; }
 .wedding-slider .next { right: 10px; }
+}
 
+.wedding-card {
+  background: #fff;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
 }
 
 
