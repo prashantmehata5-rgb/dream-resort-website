@@ -888,6 +888,15 @@ background:
 .wedding-slider button:hover {
   opacity: 1;
 }
+.wedding-slider {
+  height: 500px;
+}
+
+.slider-track img {
+  object-fit: cover;
+  height: 500px;
+}
+
 
 
 
