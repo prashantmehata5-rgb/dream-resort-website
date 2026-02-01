@@ -655,9 +655,7 @@ background:
 .book-btn:hover {
   transform: scale(1.08);
 }
-/* ============================= */
-/* PREMIUM WEDDING SLIDER STYLE */
-/* ============================= */
+/* ===== Wedding Slider Clean Version ===== */
 
 .wedding-slider-section {
   padding: 60px 20px;
@@ -665,40 +663,30 @@ background:
   background: #f8f5f0;
 }
 
-.wedding-slider-section h2 {
-  font-size: 30px;
-  margin-bottom: 30px;
-  color: #0b2b4c;
-}
-
-/* Slider Container */
 .wedding-slider {
   position: relative;
-  max-width: 600px;
-  margin: 40px auto;
+  max-width: 900px;
+  margin: 30px auto;
   overflow: hidden;
-  border-radius: 20px;
-  border: 4px solid #c9a24d;
-  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+  border-radius: 15px;
+  border: 3px solid #c9a24d;
 }
 
 /* Track */
 .slider-track {
   display: flex;
-  transition: transform 0.6s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 
-/* Images */
+/* 👇 Important — 2 images in one row */
 .slider-track img {
-  width: 100%;
+  width: 50%;
   height: 350px;
   object-fit: cover;
-}
-
   flex-shrink: 0;
 }
 
-/* Navigation Buttons */
+/* Buttons */
 .wedding-slider button {
   position: absolute;
   top: 50%;
@@ -706,34 +694,17 @@ background:
   background: rgba(0,0,0,0.6);
   color: #fff;
   border: none;
-  font-size: 26px;
-  padding: 10px 16px;
+  font-size: 22px;
+  padding: 10px 15px;
   cursor: pointer;
   border-radius: 50%;
-  z-index: 10;
-  transition: 0.3s;
 }
 
-.wedding-slider .prev {
-  left: 15px;
-}
-
-.wedding-slider .next {
-  right: 15px;
-}
-
-.wedding-slider button:hover {
-  background: #000;
-}
-
-/* Mobile Responsive */
-@media (max-width: 768px) {
-  .slider-track img {
-    height: 300px;
-  }
-}
+.wedding-slider .prev { left: 10px; }
+.wedding-slider .next { right: 10px; }
 
 }
+
 
 
 
