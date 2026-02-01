@@ -54,20 +54,19 @@
 </section>
 
     <section class="wedding-section">
+  <h2>Haldi & Mehandi Ceremony</h2>
 
-        <div class="wedding-card">
-            <h3>One-Day Wedding Package</h3>
-            <p class="price">₹2,50,000 + GST</p>
-            <p><strong>Duration:</strong> 1 Day</p>
-            <ul>
-                <li>Exclusive use of entire resort property</li>
-                <li>32 Luxury Rooms</li>
-                <li>Common Swimming Pool</li>
-                <li>Banquet Hall</li>
-                <li>Wedding Lawn / Garden</li>
-                <li>Parking Area</li>
-            </ul>
-        </div>
+  <div class="slider-container">
+    <div class="slider" id="haldi-slider">
+      <img src="images/wedding/haldi-mehandi/1.jpg">
+      <img src="images/wedding/haldi-mehandi/2.jpg">
+      <img src="images/wedding/haldi-mehandi/3.jpg">
+    </div>
+
+    <button class="slider-btn prev" onclick="prevSlide('haldi-slider')">❮</button>
+    <button class="slider-btn next" onclick="nextSlide('haldi-slider')">❯</button>
+  </div>
+</section>
 
         <div class="wedding-card premium">
             <h3>Two-Day Wedding Package</h3>
@@ -100,11 +99,41 @@
     <footer class="footer">
         <p>© Dream Resort & Club, Ashta</p>
     </footer>
+<script>
+let sliders = {};
+
+function initSlider(id) {
+  sliders[id] = 0;
+}
+
+function showSlide(id) {
+  const slider = document.getElementById(id);
+  const slides = slider.children.length;
+  slider.style.transform = `translateX(-${sliders[id] * 100}%)`;
+}
+
+function nextSlide(id) {
+  const slider = document.getElementById(id);
+  const slides = slider.children.length;
+  sliders[id] = (sliders[id] + 1) % slides;
+  showSlide(id);
+}
+
+function prevSlide(id) {
+  const slider = document.getElementById(id);
+  const slides = slider.children.length;
+  sliders[id] = (sliders[id] - 1 + slides) % slides;
+  showSlide(id);
+}
+
+initSlider('haldi-slider');
+</script>
 
 </body>
 
 
 </html>
+
 
 
 
