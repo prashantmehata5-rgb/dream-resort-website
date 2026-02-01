@@ -129,11 +129,36 @@ function prevSlide(id) {
 
 initSlider('haldi-slider');
 </script>
+<script>
+const track = document.querySelector('.slider-track');
+const slides = document.querySelectorAll('.slider-track img');
+const next = document.querySelector('.next');
+const prev = document.querySelector('.prev');
+
+let index = 0;
+
+function updateSlide() {
+  track.style.transform = `translateX(-${index * 100}%)`;
+}
+
+next.addEventListener('click', () => {
+  index = (index + 1) % slides.length;
+  updateSlide();
+});
+
+prev.addEventListener('click', () => {
+  index = (index - 1 + slides.length) % slides.length;
+  updateSlide();
+});
+</script>
+</body>
+</html>
 
 </body>
 
 
 </html>
+
 
 
 
