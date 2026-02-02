@@ -1044,21 +1044,64 @@ background:
   inset: 0;
   background: rgba(0,0,0,0.45);
 }
-<header class="navbar" id="navbar">
-  <div class="nav-container">
+/* ===== NAVBAR ===== */
 
-    <img src="/assets/logo-new.png" alt="Dream Resort Logo" class="logo">
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px 60px;
+  z-index: 9999;
+  transition: 0.4s ease;
+  background: transparent;
+}
 
-    <nav class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="rooms.html">Rooms</a>
-      <a href="weddings.html">Weddings</a>
-      <a href="travel-packages.html">Travel</a>
-      <a href="#contact" class="nav-btn">Book Now</a>
-    </nav>
+.navbar.scrolled {
+  background: rgba(11, 43, 76, 0.95);
+}
 
-  </div>
-</header>
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 55px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  margin-left: 30px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #c9a24d;
+}
+
+.nav-btn {
+  background: #c9a24d;
+  padding: 8px 20px;
+  border-radius: 25px;
+  color: black !important;
+  font-weight: bold;
+}
+
+/* Hero adjustment */
+
+.hero {
+  margin-top: 90px;
+}
+
+
 
 
 
