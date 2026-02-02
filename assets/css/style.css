@@ -947,6 +947,7 @@ background:
 }
 
 .wedding-card {
+  position: relative;
   background: #ffffff;
   padding: 30px;
   border-radius: 15px;
@@ -985,6 +986,7 @@ background:
   font-weight: 600;
   letter-spacing: 1px;
 }
+
 
 
 
