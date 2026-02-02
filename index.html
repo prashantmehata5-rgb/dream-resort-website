@@ -267,8 +267,16 @@ function slidePool() {
 setInterval(slidePool, 3500);
 </script>
 
+    <script>
+window.addEventListener("scroll", function() {
+  const navbar = document.getElementById("navbar");
+  navbar.classList.toggle("scrolled", window.scrollY > 50);
+});
+</script>
+
 </body>
 </html>
+
 
 
 
