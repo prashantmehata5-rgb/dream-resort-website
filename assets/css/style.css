@@ -889,6 +889,38 @@ background:
     grid-template-columns: 1fr;
   }
 }
+/* Package Layout */
+.package-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+/* Desktop */
+.package-wrapper .wedding-card {
+  flex: 1;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .package-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 side by side */
+    gap: 12px;
+  }
+
+  .package-wrapper .wedding-card {
+    padding: 15px;
+  }
+
+  .wedding-card h3 {
+    font-size: 16px;
+  }
+
+  .wedding-card .price {
+    font-size: 15px;
+  }
+}
+
 
 
 
