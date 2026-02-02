@@ -240,16 +240,26 @@
     </form>
   </div>
 </div>
+<!-- BOOKING POPUP -->
+<div id="bookingPopup" class="popup-overlay">
+  ...
+</div>
 
 <script>
 function openPopup() {
   document.getElementById("bookingPopup").style.display = "flex";
+  document.body.style.overflow = "hidden";
 }
 
 function closePopup() {
   document.getElementById("bookingPopup").style.display = "none";
+  document.body.style.overflow = "auto";
 }
 </script>
+
+</body>
+</html>
+
 <script>
 const poolTrack = document.getElementById("pool-slider");
 const poolSlides = poolTrack.querySelectorAll("img");
@@ -283,10 +293,10 @@ window.addEventListener("scroll", function() {
     navbar.classList.remove("scrolled");
   }
 });
-</script>
 
 </body>
 </html>
+
 
 
 
