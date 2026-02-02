@@ -1194,6 +1194,40 @@ section p {
 
 .section-slider .prev { left: 10px; }
 .section-slider .next { right: 10px; }
+/* ===== FIX GLOBAL HEADER SPACING ===== */
+
+.hero {
+  margin-top: 90px !important;
+}
+
+/* ===== FIX ROOMS PAGE WIDTH ===== */
+
+.rooms-section {
+  max-width: 1200px;
+  margin: 80px auto;
+}
+
+/* ===== FIX TRAVEL PAGE GRID ===== */
+
+.travel-section {
+  max-width: 1100px;
+  margin: 60px auto;
+}
+
+/* ===== FIX WEDDING GRID BREAK ===== */
+
+.wedding-grid {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* ===== FORCE SECTION WIDTH CONSISTENT ===== */
+
+section {
+  width: 100%;
+  box-sizing: border-box;
+}
+
 
 
 
