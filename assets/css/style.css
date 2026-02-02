@@ -368,7 +368,7 @@ section p {
 }
 
 .logo {
-  height: 50px;              /* size chhota *
+  height: 50px;              /* size chhota */
   width: 50px;
   border-radius: 50%;        /* circle */
   object-fit: cover;
@@ -1125,6 +1125,7 @@ background:
   }
 
 }
+
 
 
 
