@@ -1193,6 +1193,48 @@ background:
 .popup-box button:hover {
   background: #000;
 }
+.section-slider {
+  position: relative;
+  max-width: 1000px;
+  margin: 40px auto;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.section-slider .slider-track {
+  display: flex;
+  transition: transform 0.6s ease;
+}
+
+.section-slider img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  flex-shrink: 0;
+  border-radius: 15px;
+}
+
+.section-slider .slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.6);
+  color: white;
+  border: none;
+  font-size: 28px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.section-slider .prev { left: 15px; }
+.section-slider .next { right: 15px; }
+
+.section-slider .slider-btn:hover {
+  background: black;
+}
+
 
 
 
