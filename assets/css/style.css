@@ -900,26 +900,46 @@ background:
   flex: 1;
 }
 
-/* Mobile View */
-@media (max-width: 768px) {
-  .package-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* 2 side by side */
-    gap: 12px;
-  }
+<!-- Wedding Packages Section -->
+<section class="wedding-packages">
 
-  .package-wrapper .wedding-card {
-    padding: 15px;
-  }
+  <div class="package-wrapper">
 
-  .wedding-card h3 {
-    font-size: 16px;
-  }
+    <!-- One Day Package -->
+    <div class="wedding-card">
+      <h3>One-Day Wedding Package</h3>
+      <p class="price">₹2,51,000 + GST</p>
+      <p><strong>Duration:</strong> 1 Day</p>
+      <ul>
+        <li>Exclusive use of resort property (1 day)</li>
+        <li>32 Luxury Rooms</li>
+        <li>Common Swimming Pool</li>
+        <li>Banquet Hall</li>
+        <li>Wedding Lawn / Garden</li>
+        <li>Parking Area</li>
+      </ul>
+    </div>
 
-  .wedding-card .price {
-    font-size: 15px;
-  }
-}
+    <!-- Two Day Package -->
+    <div class="wedding-card premium">
+      <h3>Two-Day Wedding Package</h3>
+      <p class="price">₹4,51,000 + GST</p>
+      <p><strong>Duration:</strong> 2 Days</p>
+      <ul>
+        <li>Exclusive use of entire resort property (2 days)</li>
+        <li>32 Luxury Rooms</li>
+        <li>Common Swimming Pool</li>
+        <li>Banquet Hall</li>
+        <li>Wedding Lawn / Garden</li>
+        <li>Parking Area</li>
+      </ul>
+    </div>
+
+  </div>
+
+</section>
+
+
 
 
 
