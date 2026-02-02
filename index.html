@@ -316,9 +316,42 @@ window.addEventListener("scroll", function() {
     navbar.classList.remove("scrolled");
   }
 });
+<script>
+document.querySelectorAll(".section-slider").forEach(slider => {
+
+  const track = slider.querySelector(".slider-track");
+  const slides = track.querySelectorAll("img");
+  const next = slider.querySelector(".next");
+  const prev = slider.querySelector(".prev");
+
+  let index = 0;
+
+  function updateSlide() {
+    track.style.transform = "translateX(-" + index * 100 + "%)";
+  }
+
+  next.addEventListener("click", function () {
+    index = (index + 1) % slides.length;
+    updateSlide();
+  });
+
+  prev.addEventListener("click", function () {
+    index = (index - 1 + slides.length) % slides.length;
+    updateSlide();
+  });
+
+  // Auto Slide
+  setInterval(function(){
+    index = (index + 1) % slides.length;
+    updateSlide();
+  }, 4000);
+
+});
+</script>
 
 </body>
 </html>
+
 
 
 
