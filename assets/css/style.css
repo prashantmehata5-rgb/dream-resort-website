@@ -847,6 +847,25 @@ background:
     grid-template-columns: 1fr;
   }
 }
+.mini-slider {
+  overflow: hidden;
+  border-radius: 12px;
+  height: 220px;
+  position: relative;
+}
+
+.mini-track {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+.mini-track img {
+  width: 100%;
+  flex-shrink: 0;
+  height: 220px;
+  object-fit: cover;
+}
+
 
 
 
