@@ -179,9 +179,27 @@
 <footer class="footer">
   <p>© Dream Resort & Club, Ashta</p>
 </footer>
+<script>
+document.querySelectorAll(".mini-slider").forEach(function(slider) {
+
+  const track = slider.querySelector(".mini-track");
+  const slides = track.querySelectorAll("img");
+  let index = 0;
+
+  setInterval(function() {
+    index++;
+    if(index >= slides.length) {
+      index = 0;
+    }
+    track.style.transform = "translateX(-" + (index * 100) + "%)";
+  }, 2500);
+
+});
+</script>
 
 </body>
 </html>
+
 
 
 
