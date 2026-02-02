@@ -368,9 +368,13 @@ section p {
 }
 
 .logo {
-  height: 55px;
-  width: auto;
-  display: block;
+  height: 50px;              /* size chhota *
+  width: 50px;
+  border-radius: 50%;        /* circle */
+  object-fit: cover;
+  padding: 5px;              /* white space kam */
+  background: #fff;          /* clean white circle */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);  /* soft shadow */
 }
 
 .header h1 {
@@ -1121,6 +1125,7 @@ background:
   }
 
 }
+
 
 
 
