@@ -986,6 +986,65 @@ background:
   font-weight: 600;
   letter-spacing: 1px;
 }
+/* ================= POOL SLIDER ================= */
+
+.luxury-pool {
+  position: relative;
+  overflow: hidden;
+  height: 600px;
+}
+
+.pool-slider {
+  height: 100%;
+  overflow: hidden;
+}
+
+.pool-track {
+  display: flex;
+  height: 100%;
+  transition: transform 0.8s ease-in-out;
+}
+
+.pool-track img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+/* Overlay Content */
+
+.pool-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+  width: 80%;
+}
+
+.pool-overlay h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-shadow: 0 5px 20px rgba(0,0,0,0.6);
+}
+
+.pool-overlay p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  text-shadow: 0 5px 20px rgba(0,0,0,0.6);
+}
+
+/* Dark overlay */
+.luxury-pool::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+}
+
 
 
 
