@@ -427,9 +427,7 @@ section p {
   font-weight: 500;
   text-shadow: 0 2px 8px rgba(0,0,0,0.6);
 }
-background:
-  linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
-  url("../../images/pool/pool1.jpg");
+
 .announcement {
   background: #ffffff;
   padding: 80px 20px;
@@ -901,44 +899,7 @@ background:
   flex: 1;
 }
 
-<!-- Wedding Packages Section -->
-<section class="wedding-packages">
 
-  <div class="package-wrapper">
-
-    <!-- One Day Package -->
-    <div class="wedding-card">
-      <h3>One-Day Wedding Package</h3>
-      <p class="price">₹2,51,000 + GST</p>
-      <p><strong>Duration:</strong> 1 Day</p>
-      <ul>
-        <li>Exclusive use of resort property (1 day)</li>
-        <li>32 Luxury Rooms</li>
-        <li>Common Swimming Pool</li>
-        <li>Banquet Hall</li>
-        <li>Wedding Lawn / Garden</li>
-        <li>Parking Area</li>
-      </ul>
-    </div>
-
-    <!-- Two Day Package -->
-    <div class="wedding-card premium">
-      <h3>Two-Day Wedding Package</h3>
-      <p class="price">₹4,51,000 + GST</p>
-      <p><strong>Duration:</strong> 2 Days</p>
-      <ul>
-        <li>Exclusive use of entire resort property (2 days)</li>
-        <li>32 Luxury Rooms</li>
-        <li>Common Swimming Pool</li>
-        <li>Banquet Hall</li>
-        <li>Wedding Lawn / Garden</li>
-        <li>Parking Area</li>
-      </ul>
-    </div>
-
-  </div>
-
-</section>
 .package-wrapper {
   display: flex;
   gap: 30px;
@@ -1233,6 +1194,7 @@ background:
 
 .section-slider .prev { left: 10px; }
 .section-slider .next { right: 10px; }
+
 
 
 
