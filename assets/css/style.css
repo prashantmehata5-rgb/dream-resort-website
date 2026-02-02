@@ -368,13 +368,10 @@ section p {
 }
 
 .logo {
-  height: 50px;              /* size chhota */
+  height: 50px;
   width: 50px;
-  border-radius: 50%;        /* circle */
+  border-radius: 50%;
   object-fit: cover;
-  padding: 5px;              /* white space kam */
-  background: #fff;          /* clean white circle */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);  /* soft shadow */
 }
 
 .header h1 {
@@ -1125,6 +1122,7 @@ background:
   }
 
 }
+
 
 
 
