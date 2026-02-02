@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <title>Wedding Packages | Dream Resort & Club</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
+<meta charset="UTF-8">
+<title>Wedding Packages | Dream Resort & Club</title>
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
-   <header class="header">
+<header class="header">
   <div class="header-inner">
-    <img src="assets/logo.png" alt="Dream Resort Logo" class="logo">
+    <img src="assets/logo.png" class="logo">
     <h1>Dream Resort & Club, Ashta</h1>
   </div>
-
   <nav>
     <a href="index.html">Home</a>
     <a href="rooms.html">Rooms</a>
@@ -23,18 +21,17 @@
   </nav>
 </header>
 
-    <section class="page-title">
-        <h2>Wedding Packages</h2>
-        <p>Exclusive full property rental for luxury destination weddings</p>
-    </section>
-<!-- PARTY LAWN SECTION -->
-   <section class="wedding-gallery-section">
+<section class="page-title">
+  <h2>Wedding Packages</h2>
+  <p>Exclusive full property rental for luxury destination weddings</p>
+</section>
 
+<!-- GALLERY -->
+<section class="wedding-gallery-section">
   <h2>Wedding Celebrations</h2>
 
   <div class="wedding-gallery-grid">
 
-    <!-- LEFT SIDE – HALDI -->
     <div class="gallery-column">
       <h3>Haldi & Mehndi</h3>
       <img src="images/wedding/haldi-mehandi/haldi-mehandi1.jpg">
@@ -43,7 +40,6 @@
       <img src="images/wedding/haldi-mehandi/haldi-mehandi1.jpg">
     </div>
 
-    <!-- RIGHT SIDE – RECEPTION -->
     <div class="gallery-column">
       <h3>Reception</h3>
       <img src="images/wedding/reception/reception1.jpg">
@@ -55,98 +51,60 @@
   </div>
 </section>
 
+<!-- PACKAGES -->
+<section class="wedding-packages">
 
-        <div class="wedding-card premium">
-            <div class="wedding-card">
+  <div class="package-card">
     <h3>One-Day Wedding Package</h3>
     <p class="price">₹2,51,000 + GST</p>
     <p><strong>Duration:</strong> 1 Day</p>
     <ul>
-        <li>Exclusive use of resort property (1 day)</li>
-        <li>32 Luxury Rooms</li>
-        <li>Common Swimming Pool</li>
-        <li>Banquet Hall</li>
-        <li>Wedding Lawn / Garden</li>
-        <li>Parking Area</li>
+      <li>Exclusive use of resort property (1 day)</li>
+      <li>32 Luxury Rooms</li>
+      <li>Swimming Pool</li>
+      <li>Banquet Hall</li>
+      <li>Wedding Lawn</li>
+      <li>Parking Area</li>
     </ul>
-</div>
-    
-<div class="wedding-card premium">
-    <div class="wedding-card">
-            <h3>Two-Day Wedding Package</h3>
-            <p class="price">₹4,51,000 + GST</p>
-            <p><strong>Duration:</strong> 2 Days</p>
-            <ul>
-                <li>Exclusive use of entire resort property (2 days)</li>
-                <li>32 Luxury Rooms</li>
-                <li>Common Swimming Pool</li>
-                <li>Banquet Hall</li>
-                <li>Wedding Lawn / Garden</li>
-                <li>Parking Area</li>
-            </ul>
-        </div>
+  </div>
 
-    </section>
+  <div class="package-card">
+    <h3>Two-Day Wedding Package</h3>
+    <p class="price">₹4,51,000 + GST</p>
+    <p><strong>Duration:</strong> 2 Days</p>
+    <ul>
+      <li>Exclusive use of entire resort property (2 days)</li>
+      <li>32 Luxury Rooms</li>
+      <li>Swimming Pool</li>
+      <li>Banquet Hall</li>
+      <li>Wedding Lawn</li>
+      <li>Parking Area</li>
+    </ul>
+  </div>
 
-    <section class="note">
-        <p>
-            <strong>Important:</strong> The above wedding packages are for full property venue rental only. Decoration, catering, accommodation arrangements, sound, lighting, and other add-ons are charged separately.
-        </p>
-    </section>
+</section>
 
-    <section class="contact-cta">
-        <h3>Enquire for Wedding Booking</h3>
-        <p>📞 9301988004 | 8982158003</p>
-        <p>📧 reservations@dreamresortclub.com</p>
-    </section>
+<section class="note">
+  <p>
+  <strong>Important:</strong> Packages are venue rental only. 
+  Decoration, catering, sound & lighting charged separately.
+  </p>
+</section>
 
-    <footer class="footer">
-        <p>© Dream Resort & Club, Ashta</p>
-    </footer>
+<section class="contact-cta">
+  <h3>Enquire for Wedding Booking</h3>
+  <p>📞 9301988004 | 8982158003</p>
+  <p>📧 reservations@dreamresortclub.com</p>
+</section>
 
-const track = document.querySelector('.slider-track');
-const slides = document.querySelectorAll('.slider-track img');
-const next = document.querySelector('.next');
-const prev = document.querySelector('.prev');
-
-let index = 0;
-
-function updateSlide() {
-  track.style.transform = `translateX(-${index * 100}%)`;
-}
-
-next.addEventListener('click', () => {
-  index = (index + 1) % slides.length;
-  updateSlide();
-});
-
-prev.addEventListener('click', () => {
-  index = (index - 1 + slides.length) % slides.length;
-  updateSlide();
-});
-    
-<script>
-const track = document.getElementById("haldi-slider");
-const slides = track.querySelectorAll("img");
-let index = 0;
-
-function updateSlide() {
-  track.style.transform = "translateX(-" + index * 50 + "%)";
-}
-
-document.querySelector(".next").addEventListener("click", function () {
-  index = (index + 2) % slides.length;
-  updateSlide();
-});
-
-document.querySelector(".prev").addEventListener("click", function () {
-  index = (index - 2 + slides.length) % slides.length;
-  updateSlide();
-});
-</script>
+<footer class="footer">
+  <p>© Dream Resort & Club, Ashta</p>
+</footer>
 
 </body>
 </html>
+
+
 
 
 
