@@ -247,9 +247,26 @@ function closePopup() {
   document.getElementById("bookingPopup").style.display = "none";
 }
 </script>
+<script>
+const poolTrack = document.getElementById("pool-slider");
+const poolSlides = poolTrack.querySelectorAll("img");
+
+let poolIndex = 0;
+
+function slidePool() {
+  poolIndex++;
+  if (poolIndex >= poolSlides.length) {
+    poolIndex = 0;
+  }
+  poolTrack.style.transform = "translateX(-" + poolIndex * 100 + "%)";
+}
+
+setInterval(slidePool, 3500);
+</script>
 
 </body>
 </html>
+
 
 
 
