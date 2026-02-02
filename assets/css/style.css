@@ -1050,10 +1050,11 @@ background:
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 15px 60px;
+  padding: 15px 20px;   
   z-index: 9999;
   transition: 0.4s ease;
   background: transparent;
+  box-sizing: border-box;
 }
 
 .navbar.scrolled {
@@ -1061,6 +1062,13 @@ background:
 }
 
 .nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-container {
+  max-width: 1200px;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1100,6 +1108,20 @@ background:
 .hero {
   margin-top: 90px;
 }
+@media (max-width: 768px) {
+
+  .nav-links a {
+    margin-left: 12px;
+    font-size: 13px;
+  }
+
+  .nav-btn {
+    padding: 6px 14px;
+    font-size: 12px;
+  }
+
+}
+
 
 
 
