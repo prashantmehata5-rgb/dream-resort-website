@@ -263,10 +263,6 @@
     </form>
   </div>
 </div>
-<!-- BOOKING POPUP -->
-<div id="bookingPopup" class="popup-overlay">
-  ...
-</div>
 
 <script>
 function openPopup() {
@@ -279,9 +275,6 @@ function closePopup() {
   document.body.style.overflow = "auto";
 }
 </script>
-
-</body>
-</html>
 
 <script>
 const poolTrack = document.getElementById("pool-slider");
@@ -300,23 +293,6 @@ function slidePool() {
 setInterval(slidePool, 3500);
 </script>
 
-    <script>
-window.addEventListener("scroll", function() {
-  const navbar = document.getElementById("navbar");
-  navbar.classList.toggle("scrolled", window.scrollY > 50);
-});
-</script>
-    
-<script>
-window.addEventListener("scroll", function() {
-  const navbar = document.getElementById("navbar");
-  if (window.scrollY > 50) {
-    navbar.classList.add("scrolled");
-  } else {
-    navbar.classList.remove("scrolled");
-  }
-});
-</script>
 <script>
 document.querySelectorAll(".section-slider").forEach(slider => {
 
@@ -351,6 +327,8 @@ document.querySelectorAll(".section-slider").forEach(slider => {
 
 </body>
 </html>
+
+
 
 
 
