@@ -1272,4 +1272,18 @@ section {
 
 .section-slider .prev { left: 10px; }
 .section-slider .next { right: 10px; }
+/* FINAL NAVBAR FIX */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: transparent;
+  transition: 0.3s ease;
+  z-index: 9999;
+}
+
+.navbar.scrolled {
+  background: #0b2b4c !important;
+}
+
 
