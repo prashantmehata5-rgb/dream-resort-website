@@ -677,7 +677,7 @@ section p {
   transition: transform 0.5s ease-in-out;
 }
 
-/* 👇 Important — 2 images in one row */
+/* Important — 2 images in one row */
 .slider-track img {
   width: 100%;
   height: 350px;
@@ -1279,6 +1279,7 @@ section {
 
 .section-slider .prev { left: 15px; }
 .section-slider .next { right: 15px; }
+
 
 
 
