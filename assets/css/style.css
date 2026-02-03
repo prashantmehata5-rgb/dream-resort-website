@@ -1231,7 +1231,7 @@ section {
 .navbar.scrolled {
   background: #0b2b4c !important;
 }
-/* ===== SECTION SLIDER FIX ===== */
+/* ===== FINAL SLIDER FIX ===== */
 
 .section-slider {
   position: relative;
@@ -1253,23 +1253,22 @@ section {
   flex-shrink: 0;
 }
 
-/* Arrows */
 .section-slider .slider-btn {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   background: rgba(0,0,0,0.6);
-  color: white;
+  color: #fff;
   border: none;
   font-size: 22px;
-  padding: 10px 14px;
+  padding: 8px 12px;
   cursor: pointer;
   border-radius: 50%;
   z-index: 5;
 }
 
-.section-slider .prev { left: 15px; }
-.section-slider .next { right: 15px; }
+.section-slider .prev { left: 10px; }
+.section-slider .next { right: 10px; }
 
 
 
