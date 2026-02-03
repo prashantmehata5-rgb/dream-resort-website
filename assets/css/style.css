@@ -1080,6 +1080,9 @@ section p {
     padding: 6px 14px;
     font-size: 12px;
   }
+
+}
+
 /* ============================= */
 /* BOOKING POPUP DESIGN */
 /* ============================= */
@@ -1269,6 +1272,7 @@ section {
 
 .section-slider .prev { left: 10px; }
 .section-slider .next { right: 10px; }
+
 
 
 
