@@ -1319,9 +1319,11 @@ section {
 
 .travel-slider-section .slider-track img {
   min-width: 100%;
-  height: 550px;   /* 👈 aur badi */
+  height: 500px;
   object-fit: cover;
+  object-position: center;
 }
+
 
 
 .travel-slider-section .slider-track img {
@@ -1348,6 +1350,7 @@ section {
 
 .travel-slider-section .prev { left: 15px; }
 .travel-slider-section .next { right: 15px; }
+
 
 
 
