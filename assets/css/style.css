@@ -1288,6 +1288,12 @@ section {
 .navbar.scrolled {
   background: #0b2b4c !important;
 }
+.pdf-btn-wrapper .btn {
+  display: inline-block;
+  padding: 14px 35px;
+  font-size: 16px;
+}
+
 
 
 
