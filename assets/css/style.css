@@ -1298,6 +1298,11 @@ section {
   padding: 14px 35px;
   font-size: 16px;
 }
+.wedding-page .btn {
+  display: inline-block;
+  margin: 0 auto;
+}
+
 
 
 
